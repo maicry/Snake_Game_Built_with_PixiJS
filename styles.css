@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game-container {
+    position: relative;
+    width: 350px;
+    height: 550px;
+    display: flex;
+}
+
+canvas {
+    image-rendering: pixelated;
+}
+
+#score {
+    text-align: center;
+}
+
